@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import menu from '../public/menu.svg';
 import Link from 'next/link';
-
 import Nav from './Nav';
+
 export default function Header() {
   return (
     <header className="py-8 xl:py-12">
