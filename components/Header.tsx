@@ -18,7 +18,7 @@ export default function Header() {
         {/* <div className="xl:flex">mobile nav</div> */}
 
         {/* Desktop Nav RODO flex -> hidden*/}
-        <div className="hidden xl:flex">
+        <div className="xl:flex">
           <Nav />
           {/* <Link href="/contact">Hire me</Link> */}
         </div>

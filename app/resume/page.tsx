@@ -1,9 +1,9 @@
-import React from 'react';
+import VerticalTimeline from '@/components/Timeline';
 
 export default function Resume() {
   return (
     <div>
-      <span className="c"></span>Resume
+      <VerticalTimeline />
     </div>
   );
 }
