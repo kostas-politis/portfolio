@@ -12,7 +12,7 @@ export default function Temp() {
           </h2>
         </Link>
         <NavLinks className="hidden gap-8 md:flex" />
-        <DrawerMenu />
+        <DrawerMenu className="md:hidden" />
       </div>
     </header>
   );
