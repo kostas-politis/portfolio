@@ -1,7 +1,7 @@
-import { workExperience } from '@/app/work';
+import { workExperience } from '@/components/Timeline/work';
 import TimelineContainer from './TimelineEntry';
 
-export default function VerticalTimeline() {
+export default function Timeline() {
   return (
     <div className="relative mx-auto w-full max-w-5xl py-[20px]">
       {/* Vertical line */}

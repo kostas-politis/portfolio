@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import menu from '../public/menu.svg';
+import menu from '@/public/menu.svg';
 import { PropsWithChildren, useRef, useEffect } from 'react';
 import NavLinks from './NavLinks';
 

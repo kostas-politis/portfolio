@@ -2,7 +2,7 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid';
 
 export default function ContactInfo() {
   return (
-    <ul className="flex flex-col gap-10 lg:order-2 lg:mx-auto">
+    <ul className="flex flex-col gap-10 lg:order-1 lg:mx-auto">
       <li className="flex items-center gap-6">
         <PhoneIcon className="size-14 shrink-0 rounded-md bg-[#27272c] p-4 text-accent md:size-16" />
         <div>

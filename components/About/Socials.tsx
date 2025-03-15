@@ -2,9 +2,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-import envelope from '../public/envelope.svg';
-import github from '../public/github.svg';
-import linkedin from '../public/linkedin.svg';
+import envelope from '@/public/envelope.svg';
+import github from '@/public/github.svg';
+import linkedin from '@/public/linkedin.svg';
 
 export default function Socials() {
   return (
