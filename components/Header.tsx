@@ -2,9 +2,9 @@ import Link from 'next/link';
 import DrawerMenu from './DrawerMenu';
 import NavLinks from './NavLinks';
 
-export default function Temp() {
+export default function Header() {
   return (
-    <header className="py-8 xl:py-12">
+    <header className="sticky left-0 top-0 w-full py-8 lg:-mb-[104px] xl:py-12">
       <div className="flex items-center justify-between">
         <Link href="/">
           <h2 className="text-4xl font-semibold">

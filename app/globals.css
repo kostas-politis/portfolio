@@ -39,3 +39,18 @@ body {
     @apply text-xl font-semibold leading-[1.1] xl:text-2xl;
   }
 }
+
+.indicator-bounce {
+  animation: indicator-bounce 2s ease-in-out infinite;
+}
+
+@keyframes indicator-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(25px);
+  }
+}
