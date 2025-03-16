@@ -6,12 +6,12 @@ import VerticalTimeline from '@/components/Timeline/Timeline';
 
 export default function Home() {
   return (
-    <div className="h-screen">
+    <>
       <Navbar />
       <AboutSection />
       <SkillsSection />
       <VerticalTimeline />
       <ContactSection />
-    </div>
+    </>
   );
 }

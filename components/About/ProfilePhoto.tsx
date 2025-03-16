@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import profilePic from '@/public/profile.png';
+import profilePic from '@/public/profile3.png';
 import ProfileBorder from './ProfileBorder';
 
 export default function ProfilePhoto() {

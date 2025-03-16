@@ -21,10 +21,8 @@ import Skill from '@/components/Skills/Skill';
 
 export default function SkillsSection() {
   return (
-    <div className='text-center'>
-      <p className="mb-2 text-sm text-white/60">
-        What I&apos;ve done so far
-      </p>
+    <div id="resume" className="text-center">
+      <p className="mb-2 text-sm text-white/60">What I&apos;ve done so far</p>
       <h2>Work Experience</h2>
       <div className="mx-auto my-14 max-w-6xl">
         <GradientSkills>

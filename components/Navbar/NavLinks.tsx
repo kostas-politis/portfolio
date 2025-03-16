@@ -1,38 +1,32 @@
-'use client';
+const links = ['home', 'resume', 'contact'];
 
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+export default function NavLinks({ className }: { className?: string }) {
+  function scrollToSection(id: string) {
+    const navbar = document.getElementById('header');
+    const element = document.getElementById(id);
 
-const links = [
-  {
-    label: 'home',
-    href: '/',
-  },
-  {
-    label: 'resume',
-    href: '/resume',
-  },
-  {
-    label: 'contact',
-    href: '/contact',
-  },
-];
+    if (!navbar || !element) return;
 
-export default function Nav({ className }: { className?: string }) {
-  const pathname = usePathname();
+    const elementPosition = element.getBoundingClientRect().top;
+    const offsetPosition =
+      window.pageYOffset + elementPosition - navbar.clientHeight;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth',
+    });
+  }
   return (
     <nav className={className}>
       {links.map((link, index) => {
         return (
-          <Link
-            href={link.href}
+          <button
             key={index}
-            className={`${
-              link.label === pathname && 'border-b-2 border-accent text-accent'
-            } font-medium capitalize transition-all hover:text-accent`}
+            className="font-medium capitalize transition-all hover:text-accent"
+            onClick={() => scrollToSection(link)}
           >
-            {link.label}
-          </Link>
+            {link}
+          </button>
         );
       })}
     </nav>

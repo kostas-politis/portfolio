@@ -4,7 +4,10 @@ import NavLinks from './NavLinks';
 
 export default function Header() {
   return (
-    <header className="sticky left-0 top-0 w-full py-8 lg:-mb-[104px] xl:py-12">
+    <header
+      id="header"
+      className="sticky top-0 z-10 w-full bg-background py-8 lg:-mb-[104px] xl:py-12"
+    >
       <div className="flex items-center justify-between">
         <Link href="/">
           <h2 className="text-4xl font-semibold">

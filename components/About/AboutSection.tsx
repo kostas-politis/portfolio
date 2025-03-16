@@ -5,7 +5,10 @@ import ScrollIndicator from './ScrollIndicator';
 
 export default function AboutSection() {
   return (
-    <div className="relative flex lg:h-full flex-col items-center justify-between gap-8 lg:flex-row-reverse mb-14">
+    <div
+      id="home"
+      className="relative mb-24 flex flex-col items-center justify-between gap-8 lg:h-screen lg:flex-row-reverse"
+    >
       <ProfilePhoto />
       <div className="text-center lg:order-none lg:text-left">
         <span className="text-xl">Software Engineer</span>
@@ -26,7 +29,7 @@ export default function AboutSection() {
           <Socials />
         </div>
       </div>
-      <div className="hidden lg:block absolute bottom-0 left-0 right-0 mx-auto mb-[80px] w-fit">
+      <div className="absolute bottom-0 left-0 right-0 mx-auto mb-[80px] hidden w-fit lg:block">
         <ScrollIndicator />
       </div>
     </div>
