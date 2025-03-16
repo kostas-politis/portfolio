@@ -1,6 +1,7 @@
 export type WorkExperience = {
   title: string;
   company: string;
+  period: string;
   bullets: string[];
   image: { path: string; alt: string };
 };
@@ -9,6 +10,7 @@ export const workExperience: WorkExperience[] = [
   {
     title: 'Software Enginner',
     company: 'Mitel Networks Corp.',
+    period: 'October 2023 - Present',
     bullets: [
       'Contributed to the development of a Node.js REST API enabling internal telecom systems to efficiently manage users and tenants in non-relational databases, streamlining backend operations.',
       'Led testing efforts for newly released features, including manual testing and automating 70% of test cases with Selenium, providing immediate quality feedback during software releases',
@@ -23,6 +25,7 @@ export const workExperience: WorkExperience[] = [
   {
     title: 'Quality Assurance Engineer',
     company: 'Atos Unify (Now part of Mitel)',
+    period: 'June 2022 - October 2023',
     bullets: [
       'Conducted comprehensive manual and regression testing  for enterprise-level  collaboration and customer service software, identifying over 150 critical defects efficiently tracked via Jira.',
       'Designed and maintained reliable test automation frameworks, developing over 500 test cases for web, Android, and iOS platforms, significantly reducing manual testing effort and improving overall efficiency.',
@@ -36,14 +39,15 @@ export const workExperience: WorkExperience[] = [
   {
     title: 'IT Technical Support - Internship',
     company: 'Onex Technologies',
+    period: 'November 2021 - April 2022',
     bullets: [
       'Installed and maintained deterrent parking sensors preventing unauthorized parking, improving pedestrian safety and accessibility.',
       'Assisted in the user interface development of an internal mobile application designed for employee office access.',
       'Managed distribution of android devices to covid-19 vaccination centers and provided technical support to ensure proper usage.',
     ],
     image: {
-      path: '/mitel-logo-60.png',
-      alt: 'Mitel Logo',
+      path: '/onex-logo-60.png',
+      alt: 'Onex Logo',
     },
   },
 ];

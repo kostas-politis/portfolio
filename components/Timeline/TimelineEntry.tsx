@@ -21,7 +21,7 @@ export default function TimelineContainer({ item, reverse = false }: Props) {
       <div
         className={`self-center text-sm ${reverse ? 'lg:order-3 lg:justify-self-start' : 'lg:order-1 lg:justify-self-end'}`}
       >
-        January 2018 - October 2022
+        {item.period}
       </div>
       {/* CONTENT */}
       <div
