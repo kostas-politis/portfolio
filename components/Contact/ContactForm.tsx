@@ -57,10 +57,6 @@ export default function ContactForm() {
       className="flex flex-col gap-6 rounded-xl bg-[#27272c] p-10"
     >
       <h2 className="text-accent">Let’s work together</h2>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
-        blanditiis asperiores.
-      </p>
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
         <FormInput
           type="text"

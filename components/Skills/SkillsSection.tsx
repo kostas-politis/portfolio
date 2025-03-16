@@ -18,6 +18,8 @@ import {
 } from '@icons-pack/react-simple-icons';
 import GradientSkills from '@/components/Skills/SkillsWrapper';
 import Skill from '@/components/Skills/Skill';
+import SkillJava from './SkillJava';
+import SkillPlaywright from './SkillPlaywright';
 
 export default function SkillsSection() {
   return (
@@ -36,7 +38,7 @@ export default function SkillsSection() {
             <SiGnubash size={32} />
           </Skill>
           <Skill title="Java">
-            <SiGnubash size={32} />
+            <SkillJava size={32} />
           </Skill>
           <Skill title="Selenium">
             <SiSelenium size={32} />
@@ -45,12 +47,9 @@ export default function SkillsSection() {
             <SiAppium size={32} />
           </Skill>
           <Skill title="Playwright">
-            <SiAppium size={32} />
+            <SkillPlaywright size={32} />
           </Skill>
           <Skill title="Jest">
-            <SiJest size={32} />
-          </Skill>
-          <Skill title="TestNG">
             <SiJest size={32} />
           </Skill>
         </GradientSkills>
