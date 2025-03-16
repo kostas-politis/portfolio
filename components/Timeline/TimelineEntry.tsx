@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { WorkExperience } from '../app/work';
+import { WorkExperience } from './work';
 
 interface Props {
   item: WorkExperience;
