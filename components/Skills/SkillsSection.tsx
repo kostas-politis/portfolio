@@ -24,7 +24,7 @@ export default function SkillsSection() {
     <div id="resume" className="text-center">
       <p className="mb-2 text-sm text-white/60">What I&apos;ve done so far</p>
       <h2>Work Experience</h2>
-      <div className="mx-auto my-14 max-w-6xl">
+      <div className="mx-auto my-14">
         <GradientSkills>
           <Skill title="JavaScript">
             <SiJavascript size={32} />

@@ -18,10 +18,7 @@ export default function Socials() {
           <Image src={linkedin} alt="LinkedIn Profile" />
         </li>
       </Link>
-      <Link
-        href="https://github.com/kostas273?tab=repositories"
-        target="_blank"
-      >
+      <Link href="https://github.com/kostas-politis/portfolio" target="_blank">
         <li className="rounded-full border border-accent p-2">
           <Image src={github} alt="GitHub" />
         </li>
