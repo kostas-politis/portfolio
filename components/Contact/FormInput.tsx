@@ -1,19 +1,29 @@
-import { HTMLInputTypeAttribute } from 'react';
+// app/components/FormInput.tsx
+import React from 'react';
 
-type FormInputProps = {
-  type: HTMLInputTypeAttribute;
+interface FormInputProps {
+  type: string;
   placeholder: string;
-};
+  name: string;
+  value: string;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+}
 
 export default function FormInput({
-  type = 'text',
+  type,
   placeholder,
+  name,
+  value,
+  onChange,
 }: FormInputProps) {
   return (
     <input
       type={type}
-      className="rounded-md border border-white/10 bg-background p-2.5 text-base font-light outline-none autofill:bg-background focus:border-accent"
+      name={name}
+      value={value}
+      onChange={onChange}
       placeholder={placeholder}
+      className="rounded-md border border-white/10 bg-background p-2.5 text-base font-light outline-none focus:border-accent"
       required
     />
   );
