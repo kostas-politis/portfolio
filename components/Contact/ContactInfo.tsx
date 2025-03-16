@@ -20,10 +20,8 @@ export default function ContactInfo() {
       <li className="flex items-center gap-6">
         <MapPinIcon className="size-14 shrink-0 rounded-md bg-[#27272c] p-4 text-accent md:size-16" />
         <div>
-          <p className="font-light text-white/60">Address</p>
-          <h3 className="text-lg md:text-xl">
-            Tsocha 30, <span className="whitespace-nowrap">Athina 115 21</span>
-          </h3>
+          <p className="font-light text-white/60">Location</p>
+          <h3 className="text-lg md:text-xl">Athens, Greece</h3>
         </div>
       </li>
     </ul>
