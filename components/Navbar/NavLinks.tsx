@@ -1,3 +1,5 @@
+'use client';
+
 const links = ['home', 'resume', 'contact'];
 
 export default function NavLinks({ className }: { className?: string }) {
