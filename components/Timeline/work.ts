@@ -14,7 +14,7 @@ export const workExperience: WorkExperience[] = [
     bullets: [
       'Contributed to the development of a Node.js REST API enabling internal telecom systems to efficiently manage users and tenants in non-relational databases, streamlining backend operations.',
       'Led testing efforts for newly released features, including manual testing and automating 70% of test cases with Selenium, providing immediate quality feedback during software releases',
-      'Resolved production defects of varying priority in an Angular based softphone application, enhancing system reliability and user experience for over 100,000 daily users.',
+      'Resolved production defects of varying priority in an Angular based softphone application, enhancing system reliability and user experience for over 60,000 daily users.',
       'Built and maintained Jenkins pipelines for test automation suites, performing daily result analysis to identify issues and optimize test performance',
     ],
     image: {
