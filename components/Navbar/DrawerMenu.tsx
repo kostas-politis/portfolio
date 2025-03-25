@@ -4,6 +4,7 @@ import Image from 'next/image';
 import menu from '@/public/menu.svg';
 import { PropsWithChildren, useRef, useEffect } from 'react';
 import NavLinks from './NavLinks';
+import xmark from '@/public/xmark.svg';
 
 export default function DrawerMenu({
   className,
@@ -48,8 +49,11 @@ export default function DrawerMenu({
         ref={dialogRef}
         className="my-0 mr-0 h-full max-h-screen w-[300px] justify-between bg-background p-0 text-foreground"
       >
-        <button className="ml-auto block text-accent" onClick={closeDialog}>
-          X
+        <button
+          className="ml-auto mr-[25px] mt-[25px] block text-accent"
+          onClick={closeDialog}
+        >
+          <Image src={xmark} alt="Close Sidebar" />
         </button>
         <h2
           id="dialog-title"
