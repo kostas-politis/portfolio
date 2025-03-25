@@ -8,7 +8,6 @@ import linkedin from '@/public/linkedin.svg';
 
 export default function Socials() {
   return (
-    // flex justify-between max-w-xs w-4/5 m-auto md:m-0
     <ul className="flex gap-4">
       <Link
         href="https://www.linkedin.com/in/kostas-politis-8056791b8"
@@ -18,7 +17,7 @@ export default function Socials() {
           <Image src={linkedin} alt="LinkedIn Profile" />
         </li>
       </Link>
-      <Link href="https://github.com/kostas-politis/portfolio" target="_blank">
+      <Link href="https://github.com/kostas-politis" target="_blank">
         <li className="rounded-full border border-accent p-2">
           <Image src={github} alt="GitHub" />
         </li>
