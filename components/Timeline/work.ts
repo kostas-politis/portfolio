@@ -28,8 +28,8 @@ export const workExperience: WorkExperience[] = [
     company: 'Atos Unify (Now part of Mitel)',
     period: 'June 2022 - October 2023',
     bullets: [
-      'Conducted manual and regression testing for enterprise-level collaboration and customer service software, identifying over 150 critical defects efficiently tracked via Jira',
-      'Designed and maintained reliable test automation frameworks, developing over 500 test cases for web, Android, and iOS platforms, significantly reducing manual testing effort and improving overall efficiency',
+      'Conducted manual and regression testing for enterprise-level collaboration and customer service software, identifying over 150 critical defects efficiently tracked via Jira.',
+      'Designed and maintained reliable test automation frameworks, developing over 500 test cases for web, Android, and iOS platforms, significantly reducing manual testing effort and improving overall efficiency.',
       'Managed the test environments for internal telecom systems (PBXs), including deployment, configuration and user provisioning, ensuring system stability for testing workflows.',
     ],
     image: {
